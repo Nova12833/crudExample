@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Catacel Database</title>
+
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<header>
+	 <a href="index.html" id="Logolink">
+	<img src="johnson-matthey.png" alt="JM Logo">
+	</a>
+	<h1>Catacel Database</h1>
+</header>
+<div id="headerfix">
+<h2>Update 6826</h2>
+
+<div style="overflow-x:auto;">
+<table>
+  <thead>
+    <tr>
+		<th>Lot Number</th>
+		<th>Keyance Date</th>
+		<th>A1 Top</th>
+		<th>A1 Center</th>
+		<th>A1 Bottom</th>
+		<th>A2 Top</th>
+		<th>A2 Center</th>
+		<th>A2 Bottom</th>
+		<th>B1 Top</th>
+		<th>B1 Center</th>
+		<th>B1 Bottom</th>
+		<th>B2 Top</th>
+		<th>B2 Center</th>
+		<th>B2 Bottom</th>
+		<th>Job Number</th>
+		<th>Coating Lot Number</th>
+		<th>Solids</th>
+		<th>PH</th>
+		<th>Gun Settings</th>
+		<th>Air Flow</th>
+		<th>Date</th>
+		<th>Edit</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+		<td><?php echo escape($row["LotNum"]); ?></td>
+		<td><?php echo escape($row["KeyanceDate"]); ?></td>
+		<td><?php echo escape($row["A1Top"]); ?></td>
+		<td><?php echo escape($row["A1Center"]); ?></td>
+		<td><?php echo escape($row["A1Bottom"]); ?></td>
+		<td><?php echo escape($row["A2Top"]); ?></td>
+		<td><?php echo escape($row["A2Center"]); ?></td>
+		<td><?php echo escape($row["A2Bottom"]); ?></td>
+		<td><?php echo escape($row["B1Top"]); ?></td>
+		<td><?php echo escape($row["B1Center"]); ?></td>
+		<td><?php echo escape($row["B1Bottom"]); ?></td>
+		<td><?php echo escape($row["B2Top"]); ?></td>
+		<td><?php echo escape($row["B2Center"]); ?></td>
+		<td><?php echo escape($row["B2Bottom"]); ?></td>
+		<td><?php echo escape($row["JobNum"]); ?></td>
+		<td><?php echo escape($row["CoatingLotNum"]); ?></td>
+		<td><?php echo escape($row["Solids"]); ?></td>
+		<td><?php echo escape($row["PH"]); ?></td>
+		<td><?php echo escape($row["GunSettings"]); ?></td>
+		<td><?php echo escape($row["AirFlow"]); ?></td>
+		<td><?php echo escape($row["date"]); ?> </td>
+		<td><a href="update-single.html" id="Edit">Edit</a></td>
+  </tr>
+  <?php endforeach; ?>
+  </tbody>
+</table>
+</div>
+
+<a href="index.html" id="Home">Back to home</a>
+</div>
+</body>
+</html>

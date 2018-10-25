@@ -1,0 +1,247 @@
+label {
+	display: block;
+	margin: 5px 0;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+td,
+th {
+	padding: 5px;
+	border-bottom: 1px solid #aaa;
+}
+
+header {
+	text-align: Center;
+	Color: #192231;
+	border-color: #98878F;
+	background-color: #98878F;
+	position: relative;
+	top: -5em;
+}
+h1 {
+	display: inline-block;
+	position: relative;
+	right: 6em;
+}
+
+h2 {
+	text-align: Center;
+}
+
+body {
+	background-color: #D7CEC7;
+	padding: 0;
+	margin: 0;
+	z-index: -2;
+}
+
+ul {
+	background-color: white;
+	text-align: Center;
+	border-style: solid;
+	border-width: 1px;
+	border-radius: 5px;
+	list-style-type: none;
+	colums: 5;
+}
+
+img {
+	display: inline-block;
+	position: relative;
+	top: 2em;
+	right: 29em;
+}
+
+table, th, td {
+   border: 1px solid black;
+   background-color: white;
+   border-radius: 1px;
+   text-align: center;
+}
+
+tr:nth-child(even) {
+	background-color: #f2f2f2;
+}
+
+#Edit {
+	background-color: #98878F;
+	color: Black;
+    padding: 10px 15px;
+    text-align: center; 
+    text-decoration: none;
+    display: inline-block;
+}
+
+#Home {
+	color: blue;
+    padding: 7px 12px;
+    text-align: center; 
+    text-decoration: none;
+}
+
+#centersubmit {
+	display: inline-block;
+	position: relative;
+	left: 13em;
+	bottom: 2em;
+}
+
+#centersubmit input[type="submit"] {
+	background-color: #98878F;
+    border: none;
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+#centerinput {
+	display: inline-block;
+	position: relative;
+	left: 1.5em;
+}
+
+#centerlabel {
+	display: inline-block;
+	position: relative;
+	top: 1.3em;
+	right: 4.5em;
+	font-size: 1.2em;
+	font-weight: bold;
+	font-family: "Times New Roman", times, serif;
+}
+
+#centerform {
+	margin: auto;
+	width: 10em;
+}
+#headerfix {
+	position: relative;
+	top: -5em;
+}
+
+#joblabel6826 {
+	display: inline-block;
+}
+
+#jobinput6826 {
+	display: inline-block;
+}
+
+#datelabel6826 {
+	display: inline-block;
+}
+
+#dateinput6826 {
+	display: inline-block;
+}
+
+#formtop6826 {
+	position: relative;
+	left: 30em;
+	bottom: 5em;
+	border-radius: 10px;
+    background-color: #D9D9D9;
+    padding: 10px;
+	display: inline-block;
+}
+
+#coatinglabel6826 {
+	display: table;
+}
+
+#coatinginput6826 input[type="text"] {
+	display: inline-block;
+	width: 300px;
+	border: 2px solid black;
+}
+
+#coatingleft {
+	display: inline-block;
+}
+
+#coatingright {
+	display: inline-block;
+}
+
+#formsettings6826 {
+	position: relative;
+	left: 30em;
+	bottom: 5em;
+	border-radius: 10px;
+    background-color: #f2f2f2;
+    padding: 10px;
+	display: table;
+}
+
+#lotlabel6826 {
+	display: inline-block;
+}
+
+#lotinput6826 input[type="text"] {
+	display: inline-block;
+	width: 300px;
+	border: 2px solid black;
+}
+
+#A1 {
+	display: inline-block;
+}
+
+#A2 {
+	display: inline-block;
+}
+
+#B1 {
+	display: inline-block;
+}
+
+#B2 {
+	display: inline-block;
+}
+
+#formmeasurement6826 {
+	position: relative;
+	left: 30em;
+	bottom: 5em;
+	border-radius: 10px;
+    background-color: #D9D9D9;
+    padding: 10px;
+	display: table;
+}
+
+#submit6826 input[type="submit"] {
+	background-color: #98878F;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+#submit6826 {
+	display: inline-block;
+	position: relative;
+	left: 45em;
+	bottom: 5em;
+}
+
+
+.Indexlinks a:link, .Indexlinks a:visited {
+    background-color: white;
+    color: Black;
+    padding: 7px 12px;
+    text-align: center; 
+    text-decoration: none;
+    display: inline-block;
+}
+
+.Indexlinks a:hover, .Indexlinks a:active {
+    background-color: #98878F;
+}
